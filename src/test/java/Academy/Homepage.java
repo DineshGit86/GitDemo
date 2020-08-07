@@ -39,6 +39,7 @@ public class Homepage extends base {
 		lp.getGo().click();
 	ForgetPassword fp=lp.forgetPassword();
 	fp.enterEmail();
+	System.out.println("Success");
 			
 	}
 	@AfterTest
